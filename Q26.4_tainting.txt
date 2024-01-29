@@ -1,0 +1,11 @@
+1. Create a new deployment called nginx-deploy with image nginx:1.16 and 2 replica. There are 2 nodes in cluster.
+
+Please make sure no pod will get deployed on the node node01.
+
+2. Check to see how many nodes are ready (not including nodes tainted NoSchedule) and write the number to file.txt.
+
+Note: revert any changes that you did in cluser.
+
+3. Can you force the opposite behavior of pod scheduling? Deploy pods only to the tainted node.
+
+Note: revert any changes that you did in cluser.
