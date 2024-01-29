@@ -1,0 +1,3 @@
+Create a script that generates a file results.txt with details about the available size of all the nodes in a Kubernetes cluster using custom columns as in the example below.
+
+NAME   AVAILABLE_MEMORY   AVAILABLE_CPU
