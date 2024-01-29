@@ -1,0 +1,7 @@
+Create a new nginx Ingress resource as follows:
+✑ Name: ping
+✑ Namespace: ing-internal
+✑ Exposing service hello on path /hello using service port 5678
+
+The availability of service hello can be checked using the following command, which should return hello: 
+curl -kL <INTERNAL_IP>/hello
