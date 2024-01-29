@@ -1,0 +1,3 @@
+Create a ReplicaSet with the name web-pod and image nginx:1.16 and 3 replicas. There already is a pod running in the cluster.
+
+Make sure that total count of pods running into a cluster is not more than 3.
