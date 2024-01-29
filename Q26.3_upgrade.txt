@@ -1,0 +1,3 @@
+Given an existing Kubernetes cluster running version 1.24.1，upgrade all of Kubernetes control plane and node components on the master node only to version 1.24.2 You are also expected to upgrade kubelet and kubectl on the master node.
+
+Be sure to drain the master node before upgrading it and uncordon it after the upgrade. Do not upgrade the worker nodes, etcd, the container manager, the CNI plugin, the DNS service or any other add-ons.
