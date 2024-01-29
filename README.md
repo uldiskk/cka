@@ -8,9 +8,13 @@ https://www.youtube.com/@LatviaDevOpsAgileCommunity
 
 
 
+
 ➡ tiekamies LinkedIn https://www.linkedin.com/in/uldiskarlovskarlovskis/
+
 ➡ vai raksti man uz uldis.karlovskis@gmail.com
 
 Paldies, ka jūtūbē nospiedi 👍
+
 Uldis Karlovs-Karlovskis
+
 Tavs DevOps Coach & Advisor
