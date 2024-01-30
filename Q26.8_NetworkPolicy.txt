@@ -1,11 +1,11 @@
 Create a new NetworkPolicy named allow-port-from-namespace to allow Pods in the existing namespace internal to connect to port 9000 of other Pods in the same namespace.
 Ensure that the new NetworkPolicy:
-· does not allow access to Pods not listening on port 9000.
-· does not allow access from Pods not in namespace my-app
+· does not allow access to Pods not listening on port 9000
+· does not allow access from Pods not in namespace external
 
 
 
 To prepare the training environment, please use:
-kubectl create ns my-app
+kubectl create ns external
 kubectl create ns internal
-kubectl label ns my-app project=my-app 
+kubectl label ns external project=my-app 
